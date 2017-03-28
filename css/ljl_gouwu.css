@@ -1,0 +1,478 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ljl_top{
+	width: 1200px;
+	height:48px;
+	margin: 0 auto;
+	margin-top:26px;
+	border-bottom: 2px solid #ffc22e;
+}
+.ljl_top .ljl_left{
+	float: left;
+	color: #333;
+	font-size: 18px;
+	line-height: 48px;
+	margin-left: 29px;
+}
+.ljl_top .ljl_right{
+	float: right;
+	color: #161616;
+	font-size: 14px;
+}
+.ljl_top .ljl_right .ljl_tap {
+	padding:6px 30px;
+	float: left;
+}
+.ljl_top .ljl_right .ljl_tap.active{
+	background-image: url(../img/gouwu/1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain;
+}
+.ljl_top .ljl_right .ljl_tap {
+	background-image: url(../img/gouwu/2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:100% 27px;
+}
+/*全部商品*/
+#ljl_cartTable {
+	margin: 15px auto;
+	text-align: center;
+	width: 1200px;
+	height: 1154px;
+	clear:both;
+
+}
+input[type='checkbox']{
+	width: 15px;
+	height:15px;
+	border-radius: 100%;
+	background: #fff;
+}
+.ljl_trade_name {
+	width: 100%;
+	height:30px ;
+}
+ .ljl_shop_title {
+	 display: block;
+	text-align: left;
+	height: 32px;
+	color: #161616;
+	font-size: 14px;
+	font-weight: bold;
+	 float:left;
+
+}
+.ljl_checkbox.name{
+	display: block;
+	width: 15px;
+	height: 15px;
+	margin-left: 19px;
+	margin-right: 22px;
+	float:left;
+}
+.ljl_tabletitle{
+	width: 100%;
+	height:30px;
+	padding-bottom: 24px;
+}
+.ljl_tabletitle div{
+
+	height: 30px;
+	color:#161616;
+	font-size:14px;
+
+
+}
+.ljl_titall{
+
+margin-left: 19px;
+	float: left;
+}
+.ljl_titshop{
+	margin-left: 136px;
+	float: left;
+}
+.ljl_titdanjia{
+	margin-left:381px;
+	float: left;
+}
+.ljl_titnum{
+	margin-left:140px;
+	float: left;
+}
+.ljl_titsml{
+	margin-left: 109px;
+	float: left;
+}
+.ljl_titact{
+	margin-left: 121px;
+	float: left;
+}
+/*一个商店及所含商品*/
+.ljl_shopbox{
+	width:1200px ;
+	clear:both;
+
+}
+
+.ljl_shopsmall{
+	width: 100%;
+	border:1px solid #d9d9d9;
+	box-shadow:0px 2px 3px 1px #d5d5d5 ;
+	margin-bottom:26px;
+	clear: both;
+}
+.ljl_shop{
+	height:131px;
+	border-bottom: 1px dashed #eee;
+	box-sizing: border-box;
+	clear:both;
+}
+
+
+.ljl_shop.ljl_trade_name .ljl_checkbox{
+	width: 15px;
+	height: 15px;
+	margin-left: 35px;
+	margin-right: 21px;
+	margin-top: 14px;
+	float: left;
+}
+.ljl_shopsmall .ljl_checkbox{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-left: 35px;
+	margin-right: 21px;
+	margin-top: 14px;
+}
+.ljl_goods{
+	width: 542px;
+	height: 100%;
+	float: left;
+}
+.ljl_goods_img{
+	width:90px;
+	height:90px;
+	padding:20px 0;
+	float: left;
+}
+.ljl_goods .ljl_content {
+	width: 180px;
+	display: block;
+	margin-top: 12px;
+	margin-left: 64px;
+	font-size: 14px;
+	color: #161616;
+	text-align: left;
+	float: left;
+	padding:20px 0;
+}
+.ljl_goods .ljl_xinghao {
+	width:70px;
+	display: block;
+	font-size: 14px;
+	text-align: left;
+	padding:20px 0;
+	margin-left: 62px;
+	margin-top: 16px;
+	color:#6a6a6a;
+	float:left;
+	padding:18px 0;
+}
+.ljl_change {
+	/*width: 36px;*/
+	height:30px;
+	margin-left: 18px;
+	float: left;
+	position: relative;
+}
+.ljl_change .ljl_gai {
+	width: 36px;
+	height:30px;
+	padding: 0;
+	margin: 0;
+	float: left;
+	cursor: pointer;
+}
+.ljl_change .ljl_size {
+	width:230px;
+	padding:4px 0px 2px 4px;
+	border:1px solid #ffc230;
+	margin-top:29px ;
+	display: none;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 99;
+
+
+}
+.ljl_change .ljl_size .ljl_size_left {
+	float: left;
+}
+.ljl_change .ljl_size .ljl_size_right {
+	width: 78px;
+	height:78px;
+	float: left;
+}
+.ljl_change .ljl_size .ljl_size_right img{
+	width: 78px;
+	height:78px;
+}
+.ljl_change .ljl_size .ljl_nav {
+	width: 144px;
+	padding-top: 10px ;
+	clear: both;
+}
+.ljl_change .ljl_size .ljl_nav .ljl_one {
+	width:116px;
+	height: 32px;
+	font-size: 12px;
+	color:#818181;
+	float: left;
+
+}
+.ljl_change .ljl_size .ljl_nav .ljl_zi {
+	font-size: 12px;
+	color:#818181;
+	float: left;
+}
+.ljl_change .ljl_size .ljl_nav .ljl_one .ljl_hao {
+	padding: 0 6px;
+	float: left;
+	cursor: pointer;
+}
+.ljl_change .ljl_size .ljl_nav .ljl_one .ljl_hao.checked{
+	background: #ffc22e;
+	color: #fff;
+}
+.ljl_price {
+	width: 100px;
+	float: left;
+	margin-top: 34px;
+	margin-right: 80px;
+}
+.ljl_price .ljl_oldprice {
+	color:#6a6a6a;
+	text-decoration: line-through;
+}
+.ljl_price .ljl_newprice {
+	color: red;
+	font-weight: bold;
+}
+.ljl_count {
+	width: 64px;
+	height:36px;
+	float: left;
+	margin-top: 34px;
+	margin-right: 35px;
+}
+.ljl_count .ljl_num {
+	width: 20px;
+	float: left;
+}
+.ljl_count .ljl_add, .ljl_count input, .ljl_count .ljl_reduce {
+	float: left;
+	margin-right: -1px;
+	position: relative;
+	z-index: 0;
+}
+.ljl_count .ljl_add, .ljl_count .ljl_reduce {
+	height: 18px;
+	width: 20px;
+	border: 1px solid #161616;
+
+}
+.ljl_count .ljl_add {
+	background: url(../img/gouwu/5.png) center no-repeat;
+}
+.ljl_count .ljl_reduce {
+	border-top: 0;
+	background: url(../img/gouwu/6.png) center no-repeat;
+}
+.ljl_count .ljl_add:hover, .ljl_count .ljl_reduce:hover {
+	color: #f50;
+	z-index: 3;
+	border-color: #f60;
+	cursor: pointer;
+}
+.ljl_count input {
+	width: 40px;
+	height: 35px;
+	line-height: 36px;
+	border: 1px solid #161616;
+	color: #161616;
+	text-align: center;
+	background-color: #fff;
+	float: left;
+	z-index: 2;
+}
+.ljl_subtotal {
+	width: 150px;
+	color:#161616;
+	float: left;
+	margin-top: 34px;
+	margin-right: 28px;
+}
+.ljl_operation {
+	width: 95px;
+	margin-top: 34px;
+	float: left;
+}
+.ljl_operation span{
+	width: 95px;
+	height: 20px;
+	display: block;
+}
+.ljl_operation span.ljl_delete {
+	margin-bottom: 7px;
+	background: url(../img/gouwu/7.png) no-repeat center;
+}
+.ljl_operation span.ljl_jiaru {
+	background: url(../img/gouwu/8.png) no-repeat center;
+}
+.ljl_operation span:hover{
+	cursor: pointer;
+}
+/*失效*/
+.ljl_shopbox_lose .ljl_shopsmall{
+	box-shadow:none;
+}
+.ljl_shopsmall[class*='ljl_shixiao']{
+	box-shadow: none;
+	border: 0;
+}
+.ljl_shixiao {
+	height: 130px;
+	background: #eee;
+	font-size:14px;
+	color:#b5b5b5;
+	border: 0;
+	border-bottom: 2px solid #fff;
+	box-shadow: none;
+}
+.ljl_shixiao .ljl_change {
+	display: none;
+}
+.ljl_shixiao .ljl_content,.ljl_shixiao .ljl_xinghao,.ljl_shixiao .ljl_oldprice,.ljl_shixiao .ljl_newprice,.ljl_shixiao .count-input,.ljl_shixiao .ljl_subtotal {
+	color:#b5b5b5;
+}
+.ljl_shixiao .count-input,.ljl_shixiao .ljl_num .ljl_add,.ljl_shixiao .ljl_num .ljl_reduce {
+	border-color:#b5b5b5 ;
+}
+.ljl_shixiao .count-input{
+	background: transparent;
+}
+.ljl_shixiao .ljl_num .ljl_add {
+	background: url(../img/gouwu/6-1.png) center no-repeat;
+}
+.ljl_shixiao .ljl_operation span.ljl_jiaru {
+	background: url(../img/gouwu/9.png) no-repeat center;
+}
+.ljl_shixiao .ljl_checkbox{
+	width: 30px;
+}
+.ljl_shixiao .ljl_lose{
+	width: 28px;
+	margin:50px 8px;
+	padding:4px 10px;
+	font-size:14px;
+	float: left;
+	color: #5f5f5f;
+	border: 1px dashed #5f5f5f;
+}
+/*底部全选*/
+#foot {
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+	color: #161616;
+	height: 48px;
+	background-color: #fff;
+	background-image:url(../img/gouwu/11.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+	position: relative;
+	z-index: 8;
+}
+#foot .ljl_foot_left {
+	/*width:440px;*/
+	height:48px;
+	font-size: 14px;
+	color:#161616;
+	float: left;
+}
+#foot .ljl_foot_right {
+	/*width:455px;*/
+	height:48px;
+	font-size: 18px;
+	color:#161616;
+	float: right;
+}
+.ljl_fl {
+	float: left;
+}
+.ljl_fr {
+	float:left;
+}
+#foot div, #foot a {
+	line-height: 48px;
+	height: 48px;
+}
+#foot .select-all {
+	height: 48px;
+	line-height: 48px;
+	padding-left: 17px;
+	margin-right:50px;
+}
+.ljl_fl.ljl_delete {
+	color: #161616;
+}
+#foot .total{
+	margin-right:30px;
+	cursor: pointer;
+}
+#foot #priceTotal, #foot #selectedTotal {
+	color: #d30000;
+	font-size: 18px;
+}
+#foot .selected {
+	margin-right:40px;
+	cursor: pointer;
+}
+#foot #rmb{
+	font-size: 12px;
+	color:#161616;
+}
+#foot .clear,#foot .move{
+	margin-left: 50px;
+	cursor: pointer;
+}
+#foot .ljl_foot_right .ljl_fr {
+	float: left;
+}
+#foot .closing{
+	width: 112px;
+	height:48px;
+	cursor: pointer;
+	background:url(../img/gouwu/10.png) no-repeat center;
+}
+
+
+
+

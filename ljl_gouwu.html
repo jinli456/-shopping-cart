@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/ljl_gouwu.css">
+	<script src="js/ljl_gouwu.js"></script>
+	<script src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="ljl_top">
+	<div class="ljl_left">全部商品</div>
+	<div class="ljl_right">
+		<div class="ljl_tap active">购物车</div>
+		<div class="ljl_tap">确认订单信息</div>
+		<div class="ljl_tap">提交订单</div>
+		<div class="ljl_tap">支付成功</div>
+	</div>
+</div>
+<!--全部商品-->
+<div id="ljl_cartTable">
+	<!--<thead>-->
+	<div class="ljl_tabletitle">
+		<div class="ljl_titall"><label><input class="ljl_check-all check" type="checkbox"/> 全选</label></div>
+		<div class="ljl_titshop">商品信息</div>
+		<div class="ljl_titdanjia">单价</div>
+		<div class="ljl_titnum">数量</div>
+		<div class="ljl_titsml">小计</div>
+		<div class="ljl_titact">编辑</div>
+	</div>
+	<!--</thead>-->
+
+	<!--<tbody>-->
+	<div class="ljl_shopbox">
+		<div class="ljl_trade_name">
+			<span class="ljl_checkbox name"><input class="ljl_check_one check" type="checkbox"/></span>
+			<span class="ljl_shop_title">店铺&nbsp;:&nbsp;这个冬天不太冷</span>
+		</div>
+		<div class="ljl_shopsmall">
+			<div class="ljl_shop">
+			<div class="ljl_checkbox"><input class="ljl_check_one check" type="checkbox"/></div>
+			<div class="ljl_goods"><img class="ljl_goods_img" src="" alt=""/><span class="ljl_content">[新品]camel骆驼女鞋 时尚休闲2016春夏新款牛皮女鞋拼色小白鞋</span><span class="ljl_xinghao">颜色:白绿SIZE:40</span>
+				<div class="ljl_change"><img class="ljl_gai" src="img/gouwu/4.png" alt="">
+					<div class="ljl_size">
+						<div class="ljl_size_left">
+							<div class="ljl_nav">
+									<span class="ljl_zi">尺码:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">36</li>
+										<li class="ljl_hao">37</li>
+										<li class="ljl_hao">38</li>
+										<li class="ljl_hao">39</li>
+										<li class="ljl_hao">40</li>
+										<li class="ljl_hao">41</li>
+									</ul>
+							</div>
+							<div class="ljl_nav">
+								<span class="ljl_zi">颜色:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">绿色</li>
+										<li class="ljl_hao">红色</li>
+										<li class="ljl_hao">蓝色</li>
+
+									</ul>
+							</div>
+						</div>
+						<div class="ljl_size_right"><img src="img/gouwu/test/xie.png" alt=""></div>
+					</div>
+				</div></div>
+
+			<div class="ljl_price"><span class="ljl_oldprice">￥299.00</span><br/><span class="ljl_newprice">￥98.00</span></div>
+			<div class="ljl_count">
+				<input class="ljl_count-input" type="text" value="1"/>
+				<div class="ljl_num">
+					<span class="ljl_add"></span>
+					<span class="ljl_reduce"></span>
+				</div>
+
+			</div>
+			<div class="ljl_subtotal">￥98.00</div>
+			<div class="ljl_operation">
+				<span class="ljl_delete"></span>
+				<span class="ljl_jiaru"></span>
+			</div>
+		</div>
+			<div class="ljl_shop ljl_trade_name">
+				<div class="ljl_checkbox"><input class="ljl_check_one check" type="checkbox"/></div>
+				<div class="ljl_goods"><img class="ljl_goods_img" src="" alt=""/><span class="ljl_content">[新品]camel骆驼女鞋 时尚休闲2016春夏新款牛皮女鞋拼色小白鞋</span><span class="ljl_xinghao">颜色:白绿SIZE:40</span>
+					<div class="ljl_change"><img class="ljl_gai" src="img/gouwu/4.png" alt="">
+						<div class="ljl_size">
+							<div class="ljl_size_left">
+								<div class="ljl_nav">
+									<span class="ljl_zi">尺码:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">36</li>
+										<li class="ljl_hao">37</li>
+										<li class="ljl_hao">38</li>
+										<li class="ljl_hao">39</li>
+										<li class="ljl_hao">40</li>
+										<li class="ljl_hao">41</li>
+									</ul>
+								</div>
+								<div class="ljl_nav">
+									<span class="ljl_zi">颜色:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">绿色</li>
+										<li class="ljl_hao">红色</li>
+										<li class="ljl_hao">蓝色</li>
+
+									</ul>
+								</div>
+							</div>
+							<div class="ljl_size_right"><img src="img/gouwu/test/xie.png" alt=""></div>
+						</div>
+					</div></div>
+
+				<div class="ljl_price"><span class="ljl_oldprice">￥299.00</span><br/><span class="ljl_newprice">￥98.00</span></div>
+				<div class="ljl_count">
+					<input class="count-input" type="text" value="1"/>
+					<div class="ljl_num">
+						<span class="ljl_add"></span>
+						<span class="ljl_reduce"></span>
+					</div>
+
+				</div>
+				<div class="ljl_subtotal">￥98.00</div>
+				<div class="ljl_operation">
+					<span class="ljl_delete"></span>
+					<span class="ljl_jiaru"></span>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="ljl_shopbox">
+		<div class="ljl_trade_name">
+			<span class="ljl_checkbox name"><input class="ljl_check_one check" type="checkbox"/></span>
+			<span class="ljl_shop_title">店铺&nbsp;:&nbsp;这个冬天不太冷</span>
+		</div>
+		<div class="ljl_shopsmall">
+			<div class="ljl_shop">
+				<div class="ljl_checkbox"><input class="ljl_check_one check" type="checkbox"/></div>
+				<div class="ljl_goods"><img class="ljl_goods_img" src="" alt=""/><span class="ljl_content">[新品]camel骆驼女鞋 时尚休闲2016春夏新款牛皮女鞋拼色小白鞋</span><span class="ljl_xinghao">颜色:白绿SIZE:40</span>
+					<div class="ljl_change"><img class="ljl_gai" src="img/gouwu/4.png" alt="">
+						<div class="ljl_size">
+							<div class="ljl_size_left">
+								<div class="ljl_nav">
+									<span class="ljl_zi">尺码:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">36</li>
+										<li class="ljl_hao">37</li>
+										<li class="ljl_hao">38</li>
+										<li class="ljl_hao">39</li>
+										<li class="ljl_hao">40</li>
+										<li class="ljl_hao">41</li>
+									</ul>
+								</div>
+								<div class="ljl_nav">
+									<span class="ljl_zi">颜色:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">绿色</li>
+										<li class="ljl_hao">红色</li>
+										<li class="ljl_hao">蓝色</li>
+
+									</ul>
+								</div>
+							</div>
+							<div class="ljl_size_right"><img src="img/gouwu/test/xie.png" alt=""></div>
+						</div>
+					</div></div>
+
+				<div class="ljl_price"><span class="ljl_oldprice">￥299.00</span><br/><span class="ljl_newprice">￥98.00</span></div>
+				<div class="ljl_count">
+					<input class="count-input" type="text" value="1"/>
+					<div class="ljl_num">
+						<span class="ljl_add"></span>
+						<span class="ljl_reduce"></span>
+					</div>
+
+				</div>
+				<div class="ljl_subtotal">￥98.00</div>
+				<div class="ljl_operation">
+					<span class="ljl_delete"></span>
+					<span class="ljl_jiaru"></span>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+	<div class="ljl_shopbox_lose">
+		<div class="ljl_trade_name">
+			<span class="ljl_checkbox name"><input class="ljl_check_one check" type="checkbox"/></span>
+			<span class="ljl_shop_title">店铺&nbsp;:&nbsp;这个冬天不太冷</span>
+		</div>
+		<div class="ljl_shopsmall">
+			<div class="ljl_shixiao">
+				<div class="ljl_lose">失效</div>
+				<div class="ljl_goods"><img class="ljl_goods_img" src="" alt=""/><span class="ljl_content">[新品]camel骆驼女鞋 时尚休闲2016春夏新款牛皮女鞋拼色小白鞋</span><span class="ljl_xinghao">颜色:白绿SIZE:40</span>
+					<div class="ljl_change"><img class="ljl_gai" src="img/gouwu/4.png" alt="">
+						<div class="ljl_size">
+							<div class="ljl_size_left">
+								<div class="ljl_nav">
+									<span class="ljl_zi">尺码:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">36</li>
+										<li class="ljl_hao">37</li>
+										<li class="ljl_hao">38</li>
+										<li class="ljl_hao">39</li>
+										<li class="ljl_hao">40</li>
+										<li class="ljl_hao">41</li>
+									</ul>
+								</div>
+								<div class="ljl_nav">
+									<span class="ljl_zi">颜色:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">绿色</li>
+										<li class="ljl_hao">红色</li>
+										<li class="ljl_hao">蓝色</li>
+
+									</ul>
+								</div>
+							</div>
+							<div class="ljl_size_right"><img src="img/gouwu/test/xie.png" alt=""></div>
+						</div>
+					</div></div>
+
+				<div class="ljl_price"><span class="ljl_oldprice">￥299.00</span><br/><span class="ljl_newprice">￥98.00</span></div>
+				<div class="ljl_count">
+					<input class="count-input" type="text" value="1"/>
+					<div class="ljl_num">
+						<span class="ljl_add"></span>
+						<span class="ljl_reduce"></span>
+					</div>
+
+				</div>
+				<div class="ljl_subtotal">￥98.00</div>
+				<div class="ljl_operation">
+					<span class="ljl_delete"></span>
+					<span class="ljl_jiaru"></span>
+				</div>
+			</div>
+
+		</div>
+		<div class="ljl_shopsmall">
+			<div class="ljl_shixiao">
+				<div class="ljl_lose">失效</div>
+				<div class="ljl_goods"><img class="ljl_goods_img" src="" alt=""/><span class="ljl_content">[新品]camel骆驼女鞋 时尚休闲2016春夏新款牛皮女鞋拼色小白鞋</span><span class="ljl_xinghao">颜色:白绿SIZE:40</span>
+					<div class="ljl_change"><img class="ljl_gai" src="img/gouwu/4.png" alt="">
+						<div class="ljl_size">
+							<div class="ljl_size_left">
+								<div class="ljl_nav">
+									<span class="ljl_zi">尺码:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">36</li>
+										<li class="ljl_hao">37</li>
+										<li class="ljl_hao">38</li>
+										<li class="ljl_hao">39</li>
+										<li class="ljl_hao">40</li>
+										<li class="ljl_hao">41</li>
+									</ul>
+								</div>
+								<div class="ljl_nav">
+									<span class="ljl_zi">颜色:</span>
+									<ul class="ljl_one">
+										<li class="ljl_hao">绿色</li>
+										<li class="ljl_hao">红色</li>
+										<li class="ljl_hao">蓝色</li>
+
+									</ul>
+								</div>
+							</div>
+							<div class="ljl_size_right"><img src="img/gouwu/test/xie.png" alt=""></div>
+						</div>
+					</div></div>
+
+				<div class="ljl_price"><span class="ljl_oldprice">￥299.00</span><br/><span class="ljl_newprice">￥98.00</span></div>
+				<div class="ljl_count">
+					<input class="count-input" type="text" value="1"/>
+					<div class="ljl_num">
+						<span class="ljl_add"></span>
+						<span class="ljl_reduce"></span>
+					</div>
+
+				</div>
+				<div class="ljl_subtotal">￥98.00</div>
+				<div class="ljl_operation">
+					<span class="ljl_delete"></span>
+					<span class="ljl_jiaru"></span>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+	<!--</tbody>-->
+</div>
+<div class="ljl_foot" id="foot">
+	<div class="ljl_foot_left">
+		<label class="ljl_fl select-all"><input type="checkbox" class="ljl_check-all check"/> 全选</label>
+		<a class="ljl_fl ljl_delete" id="deleteAll" href="javascript:;">删除</a>
+		<div class="ljl_fl clear">清除失效宝贝</div>
+		<div class="ljl_fl move">移入收藏夹</div>
+	</div>
+	<div class="ljl_foot_right">
+		<div class="ljl_fr selected" id="selected">已选商品
+			<span id="selectedTotal">0</span>&nbsp;件
+		</div>
+		<div class="ljl_fr total">合计&nbsp;:&nbsp;<span id="priceTotal">0.00</span><span id="rmb">&nbsp;RMB</span></div>
+		<a class="ljl_fr closing"></a>
+	</div>
+</div>
+
+
+<!--<ul>
+	<li>1</li>
+	<li>2</li>
+	<li>3</li>
+	<li>4</li>
+	<li>5</li>
+	<li>6</li>
+	<li>7</li>
+</ul>
+<style>
+	li:nth-child(n+4):nth-child(-n+7){
+		color:red;
+	}
+</style>
+-->
+</body>
+</html>
